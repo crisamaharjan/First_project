@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .bau{
+        height:300px;
+        width:300px;
+        background:red;
+        transition: .4s;
+    }
+
+    .blue{
+        background:blue;
+        height:100px;
+        width:100px;
+        transform: rotate(180deg);
+    }
+
+   
+</style>
+<body>
+    <button onclick="changeBauKoClass()">Change bau class</button>
+    <div class="bau" id="father"><img src="C:\Users\ajudn\Pictures\Screenshots\Screenshot 2024-06-08 192517.png">
+    
+
+        <div class="choro">
+            <div class="buhari"></div>
+        </div>
+    </div>
+</body>
+<script>
+    // console.log(document.getElementsByTagName('div'));
+    // console.log(document.querySelector('.bau>div'));
+
+    // document.querySelector('.bau').style.height="100px"
+    // document.querySelector('.bau').style.marginTop="100px"
+    // document.querySelector('.bau').classList.add('blue');
+    // document.querySelector('.bau').classList.remove('bau');
+    // console.log(document.querySelector('.bau').classList);
+
+    function changeBauKoClass(){
+        document.querySelector('.bau').classList.add('blue');
+    }
+    </script>
+</html>

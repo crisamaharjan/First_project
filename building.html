@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<style>
+    body{
+        margin:0;
+        font-family: "Poppins","sans-serif";
+    }
+
+    *{
+        box-sizing: border-box;
+    }
+
+    nav{
+        position: fixed;
+        height:80px;
+        display: flex;
+        justify-content:space-between;
+        align-items: flex-start;
+        width:50%;
+        padding:0 5vw;
+        z-index: 99;
+
+        .A{
+            text-transform: uppercase;
+            font-size:50px;
+            font-weight:bold;
+        }
+
+        .menu{
+            position:relative;
+            font-size: 14px;
+            font-weight:semi-bold;
+            left: 500px;
+            right: 100px;
+           top: 25px;
+        }
+
+        .menu2{
+            position:relative;
+            font-size: 14px;
+            font-weight:semi-bold;
+            left: 800px;
+            right: 100px;
+            top:25px;
+        }
+    }
+
+    section{
+        height:100vh;
+        width:100%;
+        display: flex;
+        .text-area,.image-area{
+            display: flex;
+        }
+        .text-area{
+            position: relative;
+            width:40%;
+            flex-direction: column;
+            justify-content: center;
+            padding-left:5vw;
+            padding-right:2.5vw;
+            left: 50px;
+
+            
+
+        .title{
+                position: relative;
+                font-size: 26px;
+            }
+
+            .sub-title{
+                position: relative;
+                font-size: 56px;
+                font-weight: bold;
+            }
+
+            .content-area{
+                position:relative;
+                justify-content: center;
+                display:flex;
+                right: 160px;
+                
+            }
+
+            .material-symbols-outlined{
+                width: 10px;
+            }
+    
+
+        
+        }
+
+        .secondary-content-area {
+            width: 25%;
+            flex-direction: column;
+
+            
+
+                .text-area {
+                    height: 40%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+           }
+
+        .btn-area{
+                margin-top:32px;
+
+                button{
+                    background:white;
+                    padding:8px 16px;
+                    border:none;
+                    color:black;
+                }
+            }
+
+        .image-area{
+            position: relative;
+            width: 100%;                                                                                                       
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            right: 160px;
+            top: 60px;
+           
+
+            img{
+                height:80%;
+                width:100%;
+                object-fit: contain;
+            }
+        }
+    }
+        
+    .R, R, .R{
+        position: absolute;
+        bottom:32px;
+    }
+
+    .R{
+        right:5vw;
+
+        .R{
+            height:36px;
+            width:36px;
+            background-color: black;
+            color:white;
+            border-radius: 36px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top:4px;
+        }
+    }
+
+
+    .R{
+        left:2.5vw;
+        .R{
+            height:8px;
+            width:8px;
+            margin-top:4px;
+            background:black;
+            border-radius: 4px;
+        }
+    }
+    
+
+    .material-symbols-outlined{
+        font-size: 40px;
+    }
+}
+
+    
+
+</style>
+<body>
+    <nav>
+        <div class="A">A</div>
+        <div class="menu">Main</div>
+        <div class="menu">Clients</div>
+        <div class="menu">Aboutus</div>
+        <div class="menu">Contacts</div>
+        <div class="menu2">Fb</div>
+        <div class="menu2">insta</div>
+        <div class="menu2">twitter</div>
+        <div class="menu2">YT</div>
+
+    </nav>
+    <main>
+        <section>
+            <div class="text-area">
+                <span class="material-symbols-outlined">
+                    play_circle
+                    </span>
+                <!-- <button>playbtn</button> -->
+                <div class="title">view video</div>
+                <div class="sub-title">Lorem
+                    ipusm dolor sit amet</div>
+                            <div class="content-area">
+                            <div class="Clients">Clients</div>
+                            <span class="material-symbols-outlined">
+                                arrow_forward
+                            </span>
+                        </div>
+                        <div class="content-area">
+                            <div class="Contacts">Contacts</div>
+                            <span class="material-symbols-outlined">
+                                arrow_forward
+                            </span>
+                        </div>
+                    </div>
+                    <div class="btn-area">
+                        <!-- <button>playbtn</button> -->
+                </div>
+            </div>
+            <div class="image-area">
+                <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSCoWuy9beNJyUlNnNd4ttpJERZBTpdlTKP_jaTo7ugNaEVDV7A" alt="">
+            </div>
+            <div class="R">
+                <div class="R"></div>
+                <div class="R"></div>
+                <div class="R"></div>
+                <div class="R"></div>
+            </div>
+            <div class="R">
+            </div>
+            </div>  
+        </section>
+    </main>
+</body>
+</html>
